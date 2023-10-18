@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/cursos.css">
+    <link rel="shortcut icon" href="../../img/linharesfav.ico" type="image/x-icon">
+    <title>Curso | Aux.Administrativo</title>
+</head>
+
+<body>
+    <header>
+        <div class="container container-h">
+            <div class="list-bar">
+                <img src="../../img/list.svg" onclick="listButton()">
+            </div>
+            <div class="logo-bar">
+                <img src="../../img/LOGO.png" alt="Linhares Logo" onclick="homeCurso()">
+            </div>
+            <nav class="nav-bar">
+                <ul class="nav-links">
+                    <li><a href="../../">HOME</a></li>
+                    <li><a href="../info">Info.básica</a></li>
+                    <li><a href="../ingles">Inglês</a></li>
+                    <li><a href="../aux-adm">Aux.Administrativo</a></li>
+                </ul>
+            </nav>
+            <div class="contato-bar">
+                <a href="https://www.instagram.com/linhares_informatica" target="_blank" class="link-contato-bar">Entre
+                    em contato</a>
+            </div>
+        </div>
+        <div class="sideBar">
+            <ul>
+                <li><a onclick="closeSideBarLinks()" href="../../">HOME</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../ingles">Inglês</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../info">Info.Básica</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../aux-adm">Aux. Administrativo</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../web-designer">Web Designer</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../manutencao">Manutenção de Comp.</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../designer">Designer Gráfico</a></li>
+            </ul>
+            <div class="contato-sideBar">
+                <a href="https://www.instagram.com/linhares_informatica/" target="_blank" class="link-contato-bar">Entre
+                    em contato</a>
+            </div>
+        </div>
+    </header>
+    <main class="presentation-curso" onclick="closeSideBarLinksContainer()">
+        <section class="principais-info container-c">
+            <div class="principais-info-curso">
+                <div class="text-presentation">
+                    <h1 class="title-presentation">Esses são os nossos módulos de <span>Aux.Administrativo</span></h1>
+                    <p class="description-presentation">O objetivo do curso de <strong>Auxiliar Administrativo</strong>
+                        é qualificar um profissional para prestar assistência na área administrativa de uma empresa,
+                        auxiliando o administrador em suas atividades rotineiras e no controle de gestão financeira,
+                        administração, entre outros.
+                    </p>
+                </div>
+                <div class="star">
+                    <ul>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="info-presentation">
+                    <ul>
+                        <li><img src="mortarboard-fill.svg"><span>Presencial e Online</span></li>
+                        <li><img src="play-circle.svg"><span>9 módulos</span></li>
+                        <li><img src="hourglass-split.svg"><span>Carga horária média: 180 horas</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="principais-img">
+                <img src="main-post-aux-full.png" alt="">
+            </div>
+        </section>
+        <section class="modulos-container container-c">
+            <div class="modulo">
+                <div class="img-modulo ">
+                    <img src="departamento-pessoal.jpeg" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Departamento pessoal</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 120 horas</p>
+                            <p><span>Pré-requisitos:</span> Conhecimentos básicos do Windows.</p>
+                            <p><span>O objetivo</span> é ensinar os conceitos básicos sobre os departamentos de recursos
+                                humanos de uma empresa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo ">
+                    <img src="contabilidade.png" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Contabilidade</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 120 horas</p>
+                            <p><span>Pré-requisitos:</span> Sugere-se ter Ensino Fundamental completo, e o aluno ter
+                                noções básicas de Windows.</p>
+                            <p><span>O objetivo</span> é o aluno aprender os principais conceitos de contabilidade,
+                                escrituração contábil, livros contábeis, patrimônio, contas, entre outros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo ">
+                    <img src="matematica-financeira.png" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Matemática financeira</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 80 horas</p>
+                            <p><span>Pré-requisitos:</span> Conhecimentos do sistema operacional Windows e do Microsoft
+                                Excel. Conhecimentos das operações básicas da matemática: soma, subtração,
+                                multiplicação, divisão e potenciação.</p>
+                            <p><span>O objetivo</span> é ensinar os conceitos básicos sobre os departamentos de recursos
+                                humanos de uma empresa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo ">
+                    <img src="secretariado.png" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Secretariado</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 120 horas</p>
+                            <p><span>Pré-requisitos:</span> O aluno precisa conhecer o Windows e o Word </p>
+                            <p><span>O objetivo</span> é automatizar o secretariado, ou seja, ensinar as pessoas que já
+                                trabalham nesta área (ou que pretendem trabalhar) a fazer seu trabalho de um jeito mais
+                                simples, melhor e mais rapidamente utilizando um computador.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo">
+                    <img src="telemarketing.png" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Telemarketing</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 120 horas</p>
+                            <p><span>Pré-requisitos:</span> Noções básicas de informática e nível de escolaridade básico
+                            </p>
+                            <p><span>O objetivo</span> deste curso é o desenvolvimento das competências básicas para o
+                                trabalho, sem terminalidade profissional específica.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo ">
+                    <img src="excel-avancado.png" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Excel avançado</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 30 horas</p>
+                            <p><span>Pré-requisitos:</span> Ter concluído o curso Excel Básico ou possuir conhecimentos
+                                equivalentes.</p>
+                            <p><span>Objetivo:</span> Pessoas de qualquer área de atuação como Finanças, Estatística,
+                                Contabilidade, Vendas, Engenharia e outras com necessidades em automatizar planilhas e
+                                desenvolver aplicações no Excel, por meio de recursos e funções específicas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo img-modulo-big">
+                    <img src="microsoft-excel-logo.svg" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Excel</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 20 horas</p>
+                            <p><span>Pré-requisitos:</span> Ter feito o curso de Windows.</p>
+                            <p><span>O objetivo</span> é preparar o aluno para usufruir com facilidade das ferramentas e
+                                recursos do Excel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo img-modulo-big">
+                    <img src="microsoft-word-logo.svg" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Word</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 20 horas</p>
+                            <p><span>Pré-requisitos:</span> Ter feito o módulo de Windows.</p>
+                            <p><span>O objetivo</span> é preparar o aluno para usufruir com facilidade das ferramentas e
+                                recursos do Word.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo img-modulo-big">
+                    <img src="windows-174-svgrepo-com.svg" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Windows</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 30 horas</p>
+                            <p><span>Pré-requisitos:</span> Não há pré-requisitos. O aluno inicia o curso de Windows com
+                                uma introdução à informática.</p>
+                            <p><span>O objetivo</span> é ajudar a pessoa a começar a utilizar o seu próprio computador
+                                com o Windows, seja em casa, no escritório ou na escola.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-curso">
+            <div class="logo-curso-footer">
+                <img src="../../img/LOGO.png" alt="">
+            </div>
+            <div class="footer-info">
+                <p class="endereco"><a
+                    href="https://www.google.com/maps/search/?api=1&query=-2.88594183,-40.11832001" target="_blank">
+                    <img src="../../img/geo-alt-fill.svg" alt="">&nbsp;R. Arimá Silveira, 238-320 - Centro, Acaraú -
+                    CE, 62580-000, Brasil
+                </a></p>
+                <ul class="redes-sociais-curso">
+                    <li><a href="https://www.instagram.com/linhares_informatica/" target="_blank"><img
+                                src="../../img/instagram.svg">Instagram</a></li>
+                    <li><a href="http://api.whatsapp.com/send?phone=5588999131231"  target="_blank"><img src="../../img/whatsapp.svg">Whatsapp</a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>

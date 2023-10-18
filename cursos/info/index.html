@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/cursos.css">
+    <link rel="shortcut icon" href="../../img/linharesfav.ico" type="image/x-icon">
+    <title>Curso | Info.Básica</title>
+</head>
+
+<body>
+    <header>
+        <div class="container container-h">
+            <div class="list-bar">
+                <img src="../../img/list.svg" onclick="listButton()">
+            </div>
+            <div class="logo-bar">
+                <img src="../../img/LOGO.png" alt="Linhares Logo" onclick="homeCurso()">
+            </div>
+            <nav class="nav-bar">
+                <ul class="nav-links">
+                    <li><a href="../../">HOME</a></li>
+                    <li><a href="../info">Info.básica</a></li>
+                    <li><a href="../ingles">Inglês</a></li>
+                    <li><a href="../aux-adm">Aux.Administrativo</a></li>
+                </ul>
+            </nav>
+            <div class="contato-bar">
+                <a href="https://www.instagram.com/linhares_informatica" target="_blank" class="link-contato-bar">Entre em contato</a>
+            </div>
+        </div>
+        <div class="sideBar">
+            <ul>
+                <li><a onclick="closeSideBarLinks()" href="../../">HOME</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../ingles">Inglês</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../info">Info.Básica</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../aux-adm">Aux. Administrativo</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../web-designer">Web Designer</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../manutencao">Manutenção de Comp.</a></li>
+                <li><a onclick="closeSideBarLinks()" href="../designer">Designer Gráfico</a></li>
+            </ul>
+            <div class="contato-sideBar">
+                <a href="https://www.instagram.com/linhares_informatica" target="_blank" class="link-contato-bar">Entre em contato</a>
+            </div>
+        </div>
+    </header>
+    <main class="presentation-curso" onclick="closeSideBarLinksContainer()">
+        <section class="principais-info container-c">
+            <div class="principais-info-curso">
+                <div class="text-presentation">
+                    <h1 class="title-presentation">Esses são os nossos módulos de <span>Informática básica</span></h1>
+                    <p class="description-presentation">O curso de <strong>Informática Básica</strong> foi desenvolvido
+                        pensando nas reais necessidades de um aluno iniciante. Neste curso, o aluno aprende o essencial
+                        da informática de uma forma prática e produtiva, através de exemplos completos.
+                    </p>
+                </div>
+                <div class="star">
+                    <ul>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li><img src="../../img/star.svg" class="star-icon" alt="estrelas"></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="info-presentation">
+                    <ul>
+                        <li><img src="person-arms-up.svg"><span>Versão <strong
+                                    style="color: #120a8f;">Kids!</strong></span></li>
+                        <li><img src="mortarboard-fill.svg"><span>Presencial e Online</span></li>
+                        <li><img src="play-circle.svg"><span>6 módulos</span></li>
+                        <li><img src="hourglass-split.svg"><span>Carga horária média: 180 horas</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="principais-img">
+                <img src="main-info-basica.png" alt="">
+            </div>
+        </section>
+        <section class="modulos-container container-c">
+            <div class="modulo">
+                <div class="img-modulo img-modulo-big">
+                    <img src="windows-174-svgrepo-com.svg" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Windows</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 30 horas</p>
+                            <p><span>Pré-requisitos:</span> Não há pré-requisitos. O aluno inicia o curso de Windows com
+                                uma introdução à informática.</p>
+                            <p><span>O objetivo</span> é ajudar a pessoa a começar a utilizar o seu próprio computador
+                                com o Windows, seja em casa, no escritório ou na escola.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo img-modulo-big">
+                    <img src="microsoft-word-logo.svg" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Word</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 20 horas</p>
+                            <p><span>Pré-requisitos:</span> Ter feito o módulo de Windows.</p>
+                            <p><span>O objetivo</span> é preparar o aluno para usufruir com facilidade das ferramentas e
+                                recursos do Word.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo img-modulo-big">
+                    <img src="microsoft-excel-logo.svg" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Excel</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 20 horas</p>
+                            <p><span>Pré-requisitos:</span> Ter feito o curso de Windows.</p>
+                            <p><span>O objetivo</span> é preparar o aluno para usufruir com facilidade das ferramentas e
+                                recursos do Excel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo ">
+                    <img src="microsoft-powerpoint-logo.svg" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Power Point</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 20 horas</p>
+                            <p><span>Pré-requisitos:</span> Ter feito o curso de Windows.</p>
+                            <p><span>O objetivo</span> é preparar o aluno para usufruir com facilidade das ferramentas e
+                                recursos do PowerPoint e apresentar com excelência seus slides ao público. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo ">
+                    <img src="ferramentas.png" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Ferramentas básicas</h2>
+                </div>
+                <div class="modulo-saiba-mais ">
+                    <div>
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 10 horas</p>
+                            <p><span>Pré-requisitos:</span> Ter feito o curso de Windows.</p>
+                            <p><span>O objetivo</span> é ensinar o aluno como manusear o Paint e Movie Maker, que são
+                                importantes ferramentas do Windows, além de programas compactadores de arquivos e
+                                antivírus. Parte do curso foi dedicada também à prática de downloads na internet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulo">
+                <div class="img-modulo">
+                    <img src="orientacao-profissional.png" alt="modulo">
+                </div>
+                <div class="modulo-description ">
+                    <h2>Orientação profissional</h2>
+                </div>
+                <div class="modulo-saiba-mais">
+                    <div class="saiba-mais-container">
+                        <div class="click-modulo">
+                            <p>Saber mais</p>
+                        </div>
+                        <div class="modulo-info">
+                            <p><span>Carga horária:</span> 15 horas</p>
+                            <p><span>Pré-requisitos:</span> Não há pré-requisitos.</p>
+                            <p><span>O objetivo</span> deste curso é ajudar o aluno a definir seu futuro profissional.
+                                Para isso a primeira coisa em que se deve investir é no autoconhecimento para que se
+                                possa escolher acertadamente a carreira. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-curso">
+            <div class="logo-curso-footer">
+                <img src="../../img/LOGO.png" alt="">
+            </div>
+            <div class="footer-info">
+                <p class="endereco"><a
+                    href="https://www.google.com/maps/search/?api=1&query=-2.88594183,-40.11832001" target="_blank">
+                    <img src="../../img/geo-alt-fill.svg" alt="">&nbsp;R. Arimá Silveira, 238-320 - Centro, Acaraú -
+                    CE, 62580-000, Brasil
+                </a></p>
+                <ul class="redes-sociais-curso">
+                    <li><a href="https://www.instagram.com/linhares_informatica/" target="_blank"><img
+                                src="../../img/instagram.svg">Instagram</a></li>
+                    <li><a href="http://api.whatsapp.com/send?phone=5588999131231"  target="_blank"><img src="../../img/whatsapp.svg">Whatsapp</a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>

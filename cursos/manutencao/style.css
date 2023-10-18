@@ -1,0 +1,27 @@
+.presentation-curso {
+    background: url(fundo2.png);
+}
+
+.principais-info {
+    color: #fff;
+    font-weight: normal;
+}
+
+.principais-info {
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+}
+
+.title-presentation {
+    font-weight: normal;
+}
+
+.title-presentation span {
+    color: darkcyan;
+    font-weight: bold
+}
+
+.img-modulo-manu img {
+    width: 60%;
+    height: 60%;
+}

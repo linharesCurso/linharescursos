@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/linharesfav.ico" type="image/x-icon">
+  <title>Linhares | Cursos</title>
+</head>
+
+<body>
+  <div class="topScroll">
+    <a href="#top"><img src="img/topScroll.svg"></a>
+  </div>
+  <header>
+    <div class="container container-h">
+      <div class="list-bar">
+        <img src="img/list.svg" onclick="listButton()">
+      </div>
+      <div class="logo-bar">
+        <img src="img/LOGO.png" alt="Linhares Logo" onclick="home()">
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-links">
+          <li><a href="cursos/info/">Info.Básica</a></li>
+          <li><a href="cursos/ingles/">Inglês</a></li>
+          <li><a href="cursos/aux-adm/">Aux. Administrativo</a></li>
+        </ul>
+      </nav>
+      <div class="contato-bar">
+        <a href="https://www.instagram.com/linhares_informatica" target="_blank" class="link-contato-bar">Entre
+          em contato</a>
+      </div>
+    </div>
+    <div class="sideBar">
+      <ul>
+        <li><a onclick="closeSideBarLinks()" href="cursos/ingles">Inglês</a></li>
+        <li><a onclick="closeSideBarLinks()" href="cursos/info">Info.Básica</a></li>
+        <li><a onclick="closeSideBarLinks()" href="cursos/aux-adm">Aux. Administrativo</a></li>
+        <li><a onclick="closeSideBarLinks()" href="cursos/web-designer">Web Designer</a></li>
+        <li><a onclick="closeSideBarLinks()" href="cursos/manutencao">Manutenção de Comp.</a></li>
+        <li><a onclick="closeSideBarLinks()" href="cursos/designer">Designer Gráfico</a></li>
+      </ul>
+      <div class="contato-sideBar">
+        <a href="https://www.instagram.com/linhares_informatica" target="_blank" class="link-contato-bar">Entre
+          em contato</a>
+      </div>
+    </div>
+  </header>
+  <div class="container-m" onclick="closeSideBarLinks()" id="top">
+    <main>
+      <section class="main-banner">
+        <div class="main-text">
+          <h1>Acesso ilimitado aos cursos mais procurados do mercado</h1>
+          <p>Invista em seu crescimento profissional e destaque-se em sua área. Mais de 50 cursos liberados.
+          </p>
+          <div class="fazer-inscricao"><a href="http://api.whatsapp.com/send?phone=5588999131231" >Desejo entrar em contato</a></div>
+        </div>
+      </section>
+      <section class="curso-container container">
+        <div class="curso-title container-a">
+          <div class="title">
+            <img src="img/sub-logo.png" alt="Cursos">
+            <p>Principais cursos</p>
+          </div>
+          <p>Tenha acesso a cursos das mais variadas categorias, estude no conforto da sua casa
+            quando quiser aprimorando suas habilidades para o mercado:</p>
+        </div>
+
+        <div class="cursos-container-box container-a">
+          <div class="curso-box">
+            <img src="cursos/ingles/main-post.png" alt="curso">
+            <p>Ingles Interativo</p>
+            <div class="mais-info">
+              <a href="#ingles">Saber mais</a>
+            </div>
+          </div>
+          <div class="curso-box">
+            <img src="cursos/info/main-post.png" alt="curso">
+            <p>Informática Básica</p>
+            <div class="mais-info">
+              <a href="#info">Saber mais</a>
+            </div>
+          </div>
+          <div class="curso-box">
+            <img src="cursos/aux-adm/main-post-aux.png" alt="curso">
+            <p>Aux. Administrativo</p>
+            <div class="mais-info">
+              <a href="#aux">Saber mais</a>
+            </div>
+          </div>
+          <div class="curso-box">
+            <img src="cursos/web-designer/main-post.png" alt="curso">
+            <p>Web Designer</p>
+            <div class="mais-info">
+              <a href="#web">Saber mais</a>
+            </div>
+          </div>
+          <div class="curso-box">
+            <img src="cursos/manutencao/main-post.png" alt="curso">
+            <p>Manutenção de Comp.</p>
+            <div class="mais-info">
+              <a href="#manutencao">Saber mais</a>
+            </div>
+          </div>
+          <div class="curso-box">
+            <img src="cursos/designer/logo-designergrafico.png" alt="curso">
+            <p>Designer Gráfico</p>
+            <div class="mais-info">
+              <a href="#designer">Saber mais</a>
+            </div>
+          </div>
+          <div class="fazer-inscricao"><a href="http://api.whatsapp.com/send?phone=5588999131231">Quero fazer minha matrícula</a></div>
+      </section>
+      <section class="full-container-curso full-curso-1" id="ingles">
+        <div class="title-curso container-a">
+          <img src="cursos/ingles/main-post-full.jpg" alt="Curso">
+          <h2>Inglês Interativo</h2>
+        </div>
+        <div class="description-curso container-a">
+          <h2>Aprender inglês deixou de ser um diferencial para se tornar uma necessidade.</h2>
+          <p>Ter o Inglês como segunda língua tem sido o principal requisito em entrevistas de emprego.
+            Muitas pesquisas afirmam que as pessoas que dominam a fala e a escrita em Inglês conseguem
+            melhores empregos e são melhor remuneradas.
+            <br><br>Ficha técnica:
+          </p>
+        </div>
+        <div class="ficha-tecnica container-a">
+          <ul>
+            <li>Presencial e Online</li>
+            <li>4 Módulos</li>
+            <li>Carga horária de 180 horas com aula de conversação</li>
+          </ul>
+        </div>
+        <div class="ver-curso container-a">
+          <div><a href="cursos/ingles">Clique para ver o curso</a></div>
+        </div>
+      </section>
+      <section class="full-container-curso full-curso-2" id="info">
+        <div class="title-curso container-a">
+          <img src="cursos/info/main-post.png" alt="Curso">
+          <h2>Informática Básica</h2>
+        </div>
+        <div class="description-curso container-a">
+          <h2>O curso de Informática Básica foi desenvolvido pensando nas reais necessidades de um aluno
+            iniciante.</h2>
+          <p>Neste curso, o aluno aprende o essencial da informática de uma forma prática e produtiva, atravês
+            de exemplos completos.
+            <br><br>Ficha técnica:
+          </p>
+        </div>
+        <div class="ficha-tecnica container-a">
+          <ul>
+            <li>Versão Kids!</li>
+            <li>Presencial e Online</li>
+            <li>6 Módulos</li>
+            <li>Carga horária média de 180 horas</li>
+          </ul>
+        </div>
+        <div class="ver-curso container-a">
+          <div><a href="cursos/info">Clique para ver o curso</a></div>
+        </div>
+      </section>
+      <section class="full-container-curso full-curso-1" id="aux">
+        <div class="title-curso container-a">
+          <img src="cursos/aux-adm/main-post-aux-full.png" alt="Curso">
+          <h2>Aux. Administrativo</h2>
+        </div>
+        <div class="description-curso container-a">
+          <h2>O curso de Aux. Administrativo foi desenvolvido pensando nas reais necessidades de um aluno.
+          </h2>
+          <p>Este curso prepara o aluno para atender as exigências profissionais que todo escritório, comércio
+            ou empresa exige em diversas rotinas administrativas.
+            <br><br>Ficha técnica:
+          </p>
+        </div>
+        <div class="ficha-tecnica container-a">
+          <ul>
+            <li>Presencial e Online</li>
+            <li>9 Módulos</li>
+            <li>Carga horária média de 180 horas</li>
+          </ul>
+        </div>
+        <div class="ver-curso container-a">
+          <div><a href="cursos/aux-adm">Clique para ver o curso</a></div>
+        </div>
+      </section>
+      <section class="full-container-curso full-curso-2" id="web">
+        <div class="title-curso container-a">
+          <img src="cursos/web-designer/main-post.png" alt="Curso">
+          <h2>Web Designer</h2>
+        </div>
+        <div class="description-curso container-a">
+          <h2>O curso de Webdesigner é um pacote composto por vários cursos ligados a área de web designer.
+          </h2>
+          <p>O aluno irá aprender a criar sites para serem publicados na Internet, entender a necessidade
+            sobre a elaboração de projetos e desenvolver interfaces que correspondam com as informações que
+            o cliente forneceu sobre os objetivos do site, entre outras coisas.
+            <br><br>Ficha técnica:
+          </p>
+        </div>
+        <div class="ficha-tecnica container-a">
+          <ul>
+            <li>Presencial e Online</li>
+            <li>4 Módulos</li>
+            <li>Carga horária média de 180 horas</li>
+          </ul>
+        </div>
+        <div class="ver-curso container-a">
+          <div><a href="cursos/web-designer">Clique para ver o curso</a></div>
+        </div>
+      </section>
+      <section class="full-container-curso full-curso-1" id="manutencao">
+        <div class="title-curso container-a">
+          <img src="cursos/manutencao/main-post.png" alt="Curso">
+          <h2>Manutenção de Computador</h2>
+        </div>
+        <div class="description-curso container-a">
+          <h2>Este curso é um pacote composto por vários cursos ligados a área de Hardware.</h2>
+          <p>O aluno irá aprender a montar, configurar e consertar um computador, montar e configurar uma rede
+            de computadores, além de obter qualificações em hardware e redes de computadores para realizar
+            manutenções, montagens, configurações, remoção e instalação de peças e softwares.
+            <br><br>Ficha técnica:
+          </p>
+        </div>
+        <div class="ficha-tecnica container-a">
+          <ul>
+            <li>Presencial e Online</li>
+            <li>4 Módulos</li>
+            <li>Carga horária média de 180 horas</li>
+          </ul>
+        </div>
+        <div class="ver-curso container-a">
+          <div><a href="cursos/manutencao">Clique para ver o curso</a></div>
+        </div>
+      </section>
+      <section class="full-container-curso full-curso-2" id="designer">
+        <div class="title-curso container-a">
+          <img src="cursos/designer/logo-designergrafico.png" alt="Curso">
+          <h2>Designer Gráfico</h2>
+        </div>
+        <div class="description-curso container-a">
+          <h2>O curso de Design Gráfico é um pacote composto por vários cursos ligados à área de editoração
+            gráfica e arte final.<h2>
+              <p>O objetivo é transformar o aluno em um ilustrador iniciante, que utiliza os recursos e as
+                ferramentas abordadas no curso para uso pessoal a fim de realizar trabalhos autônomos,
+                ou um profissional da área
+                <br><br>Ficha técnica:
+              </p>
+        </div>
+        <div class="ficha-tecnica container-a">
+          <ul>
+            <li>Presencial e Online</li>
+            <li>4 Módulos</li>
+            <li>Carga horária média de 180 horas</li>
+          </ul>
+        </div>
+        <div class="ver-curso container-a">
+          <div><a href="cursos/designer">Clique para ver o curso</a></div>
+        </div>
+      </section>
+      <footer class="footer">
+
+        <div class="footer-container">
+          <div class="logo-footer">
+            <img src="img/LOGO.png">
+          </div>
+          <p class="endereco"><a href="https://www.google.com/maps/search/?api=1&query=-2.88594183,-40.11832001" target="_blank">
+              <img src="img/geo-alt-fill.svg" alt="">&nbsp;R. Arimá Silveira, 238-320 - Centro, Acaraú -
+              CE, 62580-000, Brasil
+            </a></p>
+          <ul class="redes-sociais">
+            <li><a href="https://www.instagram.com/linhares_informatica/" target="_blank"><img src="img/instagram.svg">Instagram</a></li>
+            <li><a href="http://api.whatsapp.com/send?phone=5588999131231" target="_blank"><img src="img/whatsapp.svg">Whatsapp</a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

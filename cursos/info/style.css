@@ -1,0 +1,40 @@
+.presentation-curso {
+    background: url(fundo2.png);
+}
+
+.principais-info {
+    background: #0020881e;
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+}
+
+.title-presentation {
+    color: #fff;
+}
+
+.title-presentation span {
+    color: #003f7e;
+}
+
+.description-presentation {
+    color: #fff;
+}
+
+.description-presentation strong {
+    color: #003f7e;
+    font-weight: bold
+}
+
+strong {
+    color: #Ddd
+}
+
+.info-presentation ul li {
+    color: #fff;
+}
+
+
+.img-modulo-info img {
+    width: 60%;
+    height: 60%;
+}

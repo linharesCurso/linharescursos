@@ -1,0 +1,21 @@
+.presentation-curso {
+    background: url(fundo2.png);
+}
+
+.principais-info {
+    color: #Fff;
+}
+
+.title-presentation {
+    font-weight: normal
+}
+
+.title-presentation span {
+    color: #add8e6;
+    font-weight: bold;
+}
+
+
+.description-presentation strong {
+    color: #00bfff;
+}
