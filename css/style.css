@@ -67,6 +67,7 @@ header {
 }
 
 header .container-h {
+  min-width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
